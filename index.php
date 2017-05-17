@@ -42,6 +42,10 @@
             'strawberry' => 'Strawberry Shortcake'
         ));
         
+        // Objects
+        $pet = new Pet('Caleb', 'purple');
+        $f3->set('myPet', $pet);
+        
         echo \Template::instance()->render('pages/info.html');
     });
 

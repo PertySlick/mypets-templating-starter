@@ -103,3 +103,7 @@
 [16-May-2017 21:43:21 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ')' in /home/troush/public_html/328/mypets-templating-starter/index.php on line 43
 [16-May-2017 21:43:40 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/troush/public_html/328/mypets-templating-starter/index.php on line 41
 [16-May-2017 21:43:42 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/troush/public_html/328/mypets-templating-starter/index.php on line 41
+[16-May-2017 22:18:15 America/Chicago] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/troush/public_html/328/mypets-templating-starter/index.php on line 47
+[16-May-2017 22:18:35 America/Chicago] Call to a member function getName() on null [/home/troush/public_html/328/mypets-templating-starter/tmp/3u2eucw6ejeo4.2hbmt1l6jeqsc.php:46]
+[16-May-2017 22:18:35 America/Chicago] [328/mypets-templating-starter/index.php:49] Preview->render()
+[16-May-2017 22:18:35 America/Chicago] [328/mypets-templating-starter/index.php:53] Base->run()

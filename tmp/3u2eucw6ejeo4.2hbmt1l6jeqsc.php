@@ -41,6 +41,10 @@
         Welcome back!
         <?php else: ?>It's been a while!
       <?php endif; ?>
+      <!-- Printing Objects -->
+      <h3>My Pets</h3>
+      <p><?= $myPet->getName() ?></p>
+      <p><?= $myPet->getColor() ?></p>
  
         
     </body>
