@@ -24,6 +24,8 @@
                 'temp' => 68,
                 'color' => 'chrome',
                 'radius' => '10',
+                'preferredCustomer', true,
+                'lastLogin', strtotime('-1 week')
                 )
         );
         $f3->set('bookmarks', array(

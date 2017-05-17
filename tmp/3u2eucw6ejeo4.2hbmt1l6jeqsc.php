@@ -35,6 +35,12 @@
       <?php foreach (($desserts?:[]) as $flavor=>$item): ?>
         <input type="checkbox" value="<?= $key ?>" /><?= $item ?><br />
       <?php endforeach; ?>
+      <!-- Control Logic -->
+      <h3>Message</h3>
+      <?php if ($lastLogin > strtotime('-1 month')): ?>
+        Welcome back!
+        <?php else: ?>It's been a while!
+      <?php endif; ?>
  
         
     </body>

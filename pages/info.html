@@ -35,6 +35,12 @@
       <repeat group="{{@desserts}}" key="{{@flavor}}" value="{{@item}}">
         <input type="checkbox" value="{{@key}}" />{{@item}}<br />
       </repeat>
+      <!-- Control Logic -->
+      <h3>Message</h3>
+      <check if="{{@lastLogin > strtotime('-1 month')}}">
+        <true>Welcome back!</true>
+        <false>It's been a while!</false>
+      </check>
  
         
     </body>
