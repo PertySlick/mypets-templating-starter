@@ -45,6 +45,10 @@
       <h3>My Pets</h3>
       <p>{{@myPet->getName()}}</p>
       <p>{{@myPet->getColor()}}</p>
+      <check if="{{@myPet->getColor() == @color}}">
+        <true>^_^</true>
+        <false>:(</false>
+      </check>
  
         
     </body>

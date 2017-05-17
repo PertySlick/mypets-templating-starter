@@ -45,6 +45,10 @@
       <h3>My Pets</h3>
       <p><?= $myPet->getName() ?></p>
       <p><?= $myPet->getColor() ?></p>
+      <?php if ($myPet->getColor() == $color): ?>
+        ^_^
+        <?php else: ?>:(
+      <?php endif; ?>
  
         
     </body>

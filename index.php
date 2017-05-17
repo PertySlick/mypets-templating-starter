@@ -22,7 +22,7 @@
                 'password' => sha1('pokemon'),
                 'title' => 'Working With Templates',
                 'temp' => 68,
-                'color' => 'chrome',
+                'color' => 'purple',
                 'radius' => '10',
                 'preferredCustomer', true,
                 'lastLogin', strtotime('-1 week')
@@ -44,7 +44,9 @@
         
         // Objects
         $pet = new Pet('Caleb', 'purple');
+        $pet2 = new Pet('Bones', 'purple');
         $f3->set('myPet', $pet);
+        $f3->set('myPet2', $pet2);
         
         echo \Template::instance()->render('pages/info.html');
     });
