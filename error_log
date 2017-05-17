@@ -96,3 +96,10 @@
 [06-May-2017 16:21:29 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/tina/public_html/328/hello/tmp/3mbuebt34ig4c.3vzb1jrga60wg.php on line 32
 [06-May-2017 16:21:29 America/Chicago] Fatal error: syntax error, unexpected '}'
 [06-May-2017 16:21:29 America/Chicago] [328/hello/tmp/3mbuebt34ig4c.3vzb1jrga60wg.php:32] 
+[16-May-2017 21:03:36 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/troush/public_html/328/mypets-templating-starter/index.php on line 27
+[16-May-2017 21:04:02 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/troush/public_html/328/mypets-templating-starter/index.php on line 27
+[16-May-2017 21:20:56 America/Chicago] PHP Parse error:  syntax error, unexpected ''bookmarks'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/troush/public_html/328/mypets-templating-starter/index.php on line 27
+[16-May-2017 21:21:48 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/troush/public_html/328/mypets-templating-starter/index.php on line 30
+[16-May-2017 21:43:21 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ')' in /home/troush/public_html/328/mypets-templating-starter/index.php on line 43
+[16-May-2017 21:43:40 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/troush/public_html/328/mypets-templating-starter/index.php on line 41
+[16-May-2017 21:43:42 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/troush/public_html/328/mypets-templating-starter/index.php on line 41
